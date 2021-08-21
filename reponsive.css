@@ -1,0 +1,167 @@
+@media (max-width:740px){
+    #nav 
+    {
+        display: none;
+    }
+    .first-header .first-heading 
+  {
+    font-size: 12px;
+   
+   }
+    #tablet 
+    {
+        display: block;
+        font-size: 15px;
+    }
+    .second-header 
+    {
+        height: 178px;
+        margin-bottom: 20px;
+    }
+    .second-header .second-header-text 
+    {
+        height: 177px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+       .second-header .second-header-text 
+       {
+           flex-direction: column;
+       }
+       #nav-sec  
+       {
+           display: none;
+       }
+       .text2 
+       {
+           display: none;
+       }
+       .src-box 
+       {
+           width: 120%;
+           margin-left: -20px;
+           float: left;
+           position: absolute;
+           left: 10%;
+       }
+       .text  
+       {
+           margin-top: 10px;
+       }
+       .cart 
+       {
+          display: none;
+       }
+       #nav-th 
+       {
+           display: none;
+       }
+       #header 
+       {
+           height: 343px;
+       }
+       .heading-third 
+     {
+    font-size: 12px;
+    padding: 20px;
+    color: #fff;
+    }
+.heading-third i 
+{
+    padding: 10px;
+}
+.sub-header 
+{
+    width: 1000px;
+   left: -100%;
+   text-align: left;
+}
+.sub-header li 
+{
+    margin-left: 300px;
+}
+.menu2 
+{
+    display: block;
+}
+.modal-content 
+{
+    width: 100%;
+}
+}
+@media (min-width:741px) and (max-width:1000px){
+   #nav 
+   {
+       display: none;
+   }
+   #tablet 
+   {
+       display: block;
+   }
+   .second-header 
+{
+    height: 198px;
+    margin-bottom: 30px;
+}
+.second-header .second-header-text 
+{
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .second-header .second-header-text 
+   {
+       flex-direction: column;
+   }
+   #nav-sec  
+   {
+       display: none;
+   }
+   .text2 
+   {
+       display: none;
+   }
+   .src-box 
+   {
+       width: 100%;
+       margin-left: -20px;
+       float: left;
+       position: absolute;
+       left: 10%;
+   }
+   .text  
+   {
+       margin-top: 10px;
+   }
+   .cart 
+   {
+       position: absolute;
+       bottom: 10%;
+       right: 18%;
+       display: none;
+   }
+   #header 
+   {
+       height: 363px;
+   }
+   #nav-th 
+   {
+       display: none;
+   }
+   .sub-header 
+   {
+       width: 1000px;
+      left: -100%;
+      text-align: left;
+   }
+   .sub-header li 
+   {
+       margin-left: 130px;
+   }
+   .menu2 
+   {
+       display: block;
+   }
+}

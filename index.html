@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Flower</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/reponsive.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="first-header">
+       
+        <h1 class="first-heading">  <i class="fas fa-phone"></i>  Hotline:0908 77 00 95</h1>
+        <ul id="nav">
+        <li><a href=""><i class="far fa-check-square"></i> Kiểm tra Đơn Hàng</a></li>
+        <li><a href=""><i class="fas fa-shopping-cart"></i> Giỏ hàng</a></li>
+        <li><a href=""><i class="fas fa-sign-in-alt"></i> Đăng Nhập</a></li>
+        <li><a href=""><i class="fas fa-hand-holding-usd"></i> Đăng ký</a></li>
+        </ul>
+        <ul id="tablet">
+            <li><i class="fas fa-user"></i></li>
+            <li><i class="fas fa-bars"></i> 
+              <ul class="sub-nav">
+                  <li><a href=""> Kiểm tra Đơn Hàng </a></li>
+                  <li><a href="">Giỏ hàng </a></li>
+              </ul>
+            </li>
+        </ul>
+       </div>
+       <div class="second-header">
+        <div class="second-header-text"> 
+        <img src="./asset/banner(1).png">
+        <div class="sub-sec"> 
+        <ul id="nav-sec">
+            <li><a href=""><i class="fas fa-truck"></i> GIAO HÀNG MIỄN PHÍ </a></li>
+            <li><a href=""> <i class="far fa-money-bill-alt"> </i> THANH TOÁN LINH HOẠ </a>  </li>
+            <li><a href=""> <i class="fas fa-sync-alt"></i> TRẢ HÀNG TRONG 30 NGÀY  </a></li>
+        </ul>
+        <div class="src-box">
+            <input type="text" class="text" placeholder="TÌm Kiếm">
+            <select class="text2">
+                <option value="volvo">Tất cả </option>
+                <option value="saab">điện thoại </option>
+                <option value="opel">máy ảnh</option>
+                <option value="audi">máy tính</option>
+              </select>
+              <input type="submit" class="submit" value="send">
+        </div>
+        <i class=" cart fas fa-shopping-cart"></i> 
+    </div>
+         </div>
+       </div>
+       <div class="third-header">
+           <div class="third-header-text">
+              <h1 class="heading-third"> <i class="fas fa-bars"></i> DANH MỤC SẢN PHÂM <i class="fas fa-arrow-circle-down"></i> 
+                 <ul class="sub-header">
+                   <li>Máy ảnh </li>
+                   <li>Laptop</li>
+                   <li>Diện thoại</li>
+                   <li>tablet</li>
+                   <li>Thời Trang</li>
+                   <li>Hàng gia Dụngs</li>
+                 </ul>
+            </h1>
+              <ul id="nav-th">
+                <li><a href=""> TRANG CHỦ </a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="">SẢN PHẨM</a></li>
+                <li><a href="">TIN TỨC </a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+              </ul>
+           </div>
+       </div>
+       <i class=" menu2 fas fa-bars"></i>
+    </div>
+    <div id="slider">
+           
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="footer">
+         
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-close"> 
+            <i class="fas fa-times"></i>
+        </div>
+        </div>
+    </div>
+    <script>
+        menus = document.querySelectorAll(".menu2")
+        modal = document.querySelector(".modal")
+        modalClose = document.querySelector(".modal-close")
+        function showModal(){
+            modal.classList.add("open")
+        }
+        function hideModal(){
+            modal.classList.remove("open")
+        }
+        for (const menu of menus){
+            menu.addEventListener('click',showModal)
+        }
+        modalClose.addEventListener('click',hideModal)
+    </script>
+</body>
+</html>
